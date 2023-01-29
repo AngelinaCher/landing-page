@@ -1,0 +1,41 @@
+*
+    box-sizing: border-box
+
+
+@font-face 
+    font-family: "Montserrat"
+    font-display: swap
+    src: url("../fonts/Montserrat-Regular.ttf")
+    font-weight: regular
+    font-style: normal
+
+
+@font-face 
+    font-family: "PlayfairDisplay"
+    font-display: swap
+    src: url("../fonts/PlayfairDisplay-Bold.ttf")
+    font-weight: bold
+    font-style: normal
+
+
+html
+    font-family: "Montserrat"
+    font-weight: regular
+
+.main-section
+    position: relative
+    &__bgc
+        background: url("../img/bgc.png")
+        min-height: 900px
+    &__info
+        width: 1140px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        position: absolute
+        color: #ffffff
+        margin-top: 30px
+
+.container
+    max-width: 1140px
+    margin: 0 auto
