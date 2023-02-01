@@ -1,3 +1,6 @@
+$color-gray: #282828
+$color-olive: #99862A
+    
 *
     box-sizing: border-box
 
@@ -22,20 +25,138 @@ html
     font-family: "Montserrat"
     font-weight: regular
 
-.main-section
-    position: relative
-    &__bgc
-        background: url("../img/bgc.png")
-        min-height: 900px
-    &__info
-        width: 1140px
-        display: flex
-        justify-content: space-between
-        align-items: center
-        position: absolute
-        color: #ffffff
-        margin-top: 30px
 
 .container
     max-width: 1140px
     margin: 0 auto
+    position: relative
+
+
+.main-section
+    position: relative
+    min-height: 900px
+    background: url("../img/bgc.png") center / cover no-repeat
+    &__info
+        position: relative
+        top: 30px
+        padding-bottom: 30px
+    &__address
+        position: absolute
+        color: #ffffff
+        font-size: 13px
+    &__number
+        position: absolute
+        right: 0
+        color: #ffffff
+        font-size: 13px
+    &__nav
+        height: 47px
+        margin-bottom: 600px
+    &__btn-box
+        display: flex
+        justify-content: center
+
+
+.nav-menu
+    &__container
+        margin-top: 30px
+    &__list
+        display: flex
+        flex-direction: row
+        height: 69px
+        align-items: center
+    &__list-item
+        padding: 11px 0
+        border: 1px solid white
+        &:first-child
+            border-left: none
+        &:last-child
+            border-right: none
+        &:hover
+            background: $color-olive
+    a
+        &:link, &:visited
+            font-size: 14px
+            text-decoration: none
+            color: white
+            padding: 0 107px
+
+
+.btn
+    &:link, &:visited
+        display: inline-block
+        text-transform: uppercase
+        text-decoration: none
+        color: white
+        padding: 15px 30px
+        background: $color-olive
+        margin-right: 30px
+        &:last-child
+            margin-right: 0
+        &:hover
+            background: #847424
+        &:active
+            transform: translateY(-2px)
+            background: #6c5f1c
+
+
+
+.second-section
+    position: relative
+    min-height: 900px
+    background: $color-gray
+    &__container
+        padding-top: 100px
+    &__border
+        height: 656px
+        border: 1px solid white
+        position: relative
+    &__banner
+        margin-bottom: 80px
+    &__title
+        color: white
+        padding-top: 60px
+        text-align: center
+    &__description
+        margin-bottom: 50px
+    &__text
+        color: white
+        max-width: 733px
+        text-align: center
+        margin: 0 auto
+    &__img
+        display: flex
+        justify-content: center
+
+
+.title
+    font-size: 36px
+    font-family: "PlayfairDisplay"
+    line-height: 54px
+    &__hr
+        position: absolute
+        width: 160px
+        margin: 0
+        top: 154px
+        left: 475px
+        border-top: 1px solid white
+
+.text
+    font-size: 16px
+    line-height: 150%
+
+.img
+    &__vine
+        width: 160px
+        height: 160px
+
+
+.third-section
+    position: relative
+    min-height: 1038px
+    background: #E6E3C4
+    &__container
+        padding-top: 80px
+    &__line-top
+        border-top: 1px solid #998431
+    

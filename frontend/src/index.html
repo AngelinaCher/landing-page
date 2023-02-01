@@ -13,14 +13,73 @@
 <body>
     
     <!-- Первая секция -->
-    <div class="main-section">
-        <div class="container main-section">
-            <div class="main-section__info">
-                <h2 class="main-section__address">Новокузнечный переулок 4/1</h2>
-                <h2 class="main-section__number">8 (812) 123-45-67</h2>
+    <section class="main-section">
+        <div class="container main-section__img">
+            <header class="main-section__header">
+                <div class="main-section__info">
+                    <p class="main-section__address">Новокузнечный переулок 4/1</p>
+                    <p class="main-section__number">8 (812) 123-45-67</p>
+                </div>
+            </header>
+
+            <!-- Навигационное меню -->
+            <nav class="main-section__nav nav-menu">
+                <div class="nav-menu__container">
+                    <ul class="nav-menu__list">
+                        <li class="nav-menu__list-item"><a href="#">Каталог</a></li>
+                        <li class="nav-menu__list-item"><a href="#">Доставка</a></li>
+                        <li class="nav-menu__list-item"><a href="#collections">Коллекции</a></li>
+                        <li class="nav-menu__list-item"><a href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Кнопки -->
+            <div class="main-section__btn-box">
+                <a href="#" class="header__first-btn btn">Винная карта</a>
+                <a href="#" class="header__second-btn btn">Дегустация</a>
             </div>
         </div>
-        <div class="main-section__bgc"></div>
-    </div>
+    </section>
+
+    <!-- Вторая секция секция -->
+    <section class="second-section">
+        <div class="container second-section__container">
+            
+            <!-- Рамка -->
+            <div class="second-section__border">
+                <div class="second-section__banner">
+                    <h2 class="second-section__title title">Лучший вкус - это вкус долголетнего вина
+                        <hr class="title__hr">
+                    </h2>
+                </div>
+                <div class="second-section__description">
+                    <p class="second-section__text text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac. Mauris dictumst risus pulvinar blandit elit. Vestibulum quam ultrices nascetur et viverra suscipit. Proin vitae aliquet leo aliquam amet rutrum. Lectus auctor purus ultrices enim ultrices. Augue fringilla tellus tortor orci ultrices sed. Viverra cras sapien, pellentesque viverra malesuada. Tellus dolor, eget vitae dignissim molestie eget sit duis. Vitae dui vel pretium euismod diam. Pellentesque amet, lacus, amet, quis risus. Pellentesque scelerisque nunc, orci aliquam quis.</p>
+                </div>
+
+                <!-- Картинка вина -->
+
+                <div class="second-section__img">
+                    <img src="icons/image.svg" alt="" class="img__vine">
+                </div>
+            </div>
+    </section>
+
+
+    <!-- Третья секция -->
+    <section id="collections" class="third-section">
+        <div class="container third-section__container">
+            <!-- Верхняя линия  -->
+            <hr class="third-section__line-top">
+
+            <!-- Основной контент -->
+
+            <div class="third-section__content">
+                <div class="third-section__left-wrapper"></div>
+                <div class="third-section__right-wrapper"></div>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
