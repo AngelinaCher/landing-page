@@ -147,11 +147,9 @@ html {
   line-height: 54px;
 }
 .title__hr {
-  position: absolute;
   width: 160px;
-  margin: 0;
-  top: 154px;
-  left: 475px;
+  margin: 0 auto;
+  margin-top: 40px;
   border-top: 1px solid white;
 }
 
@@ -174,5 +172,87 @@ html {
   padding-top: 80px;
 }
 .third-section__line-top {
+  margin-bottom: 60px;
+}
+.third-section__content {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+.third-section__left-wrapper {
+  position: relative;
+  margin-right: 125px;
+}
+
+.line {
   border-top: 1px solid #998431;
+}
+
+.left-wrapper__text-menu {
+  width: 445px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+}
+
+.table__item {
+  display: flex;
+}
+
+.table__item-year {
+  padding: 31px;
+  border-bottom: 1px solid #282828;
+  border-right: 1px solid #282828;
+}
+
+.table__item-name {
+  padding-left: 30px;
+  font-weight: bold;
+  font-family: "Playfair Display";
+  padding-top: 10px;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.table__item-descr {
+  padding-top: 5px;
+  padding-left: 30px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  border-bottom: 1px solid #282828;
+  padding-bottom: 20px;
+}
+
+.border {
+  border-bottom: none;
+}
+
+.right-wrapper__img1 {
+  width: 540px;
+  height: 500px;
+  margin-bottom: 30px;
+}
+.right-wrapper__img2 {
+  width: 255px;
+  height: 228px;
+  margin-right: 30px;
+}
+.right-wrapper__img3 {
+  width: 255px;
+  height: 228px;
+}
+
+.right-wrapper__img-bottom {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
