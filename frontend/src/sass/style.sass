@@ -57,6 +57,12 @@ html
         justify-content: center
 
 
+.header
+    &__first-btn
+        background: $color-olive
+    &__second-btn
+        background: $color-olive
+
 .nav-menu
     &__container
         margin-top: 30px
@@ -83,13 +89,12 @@ html
 
 
 .btn
-    &:link, &:visited
+    &, &:link, &:visited
         display: inline-block
         text-transform: uppercase
         text-decoration: none
         color: white
         padding: 15px 30px
-        background: $color-olive
         margin-right: 30px
         &:last-child
             margin-right: 0
@@ -171,15 +176,18 @@ html
     border-top: 1px solid #998431
 
 
-.left-wrapper__text-menu 
-    width: 445px
-    margin-top: 30px
-    margin-bottom: 30px
-    font-family: 'Montserrat'
-    font-style: normal
-    font-weight: 400
-    font-size: 14px
-    line-height: 150%
+.left-wrapper
+    &__text-menu 
+        width: 445px
+        margin-top: 30px
+        margin-bottom: 30px
+        font-family: 'Montserrat'
+        font-style: normal
+        font-weight: 400
+        font-size: 14px
+        line-height: 150%
+    &__btn
+        background: $color-olive
 
 .table
     display: flex
@@ -215,7 +223,6 @@ html
     border-bottom: none
         
 .right-wrapper
-    &__img-box
     &__img1
         width: 540px
         height: 500px
@@ -230,4 +237,155 @@ html
 
 .right-wrapper__img-bottom 
     display: flex
-        
+
+
+.fourth-section
+    position: relative
+    min-height: 767px
+    background: $color-gray
+    &__container
+        padding-top: 130px
+    &__border
+        height: 538px
+        border: 3px solid #C4C4C4
+        position: relative
+    &__grape
+        position: absolute
+        top: 60px
+    &__barrel
+        position: absolute
+        top: 64px
+        right: -1px
+    &__reservation
+        margin: 0 285px
+    
+
+.fourth-section-border
+    &__title
+        font-family: 'Playfair Display'
+        font-size: 36px
+        color: white
+        text-align: center
+        margin: 0 auto
+        padding: 10px 50px
+    &__hr
+        width: 160px
+        margin-top: 30px
+        border-top: 1px solid white
+        margin-bottom: 40px
+    &__text
+        margin: 0 auto
+        text-align: center
+        width: 539px
+        color: white
+        line-height: 150%
+
+.fourth-section__title
+    margin-bottom: 80px
+
+.form
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    margin-bottom: 50px
+    &__group:not(:last-child)
+        margin-bottom: 40px
+    &__input
+        width: 255px
+        height: 30px
+        background: none
+        font-size: 13px
+        color: white
+        vertical-align: top
+        border: none
+        border-bottom: 1px solid white
+        &:focus
+            outline: none
+            border-bottom: 2px solid $color-olive
+
+
+
+#email
+    width: 565px
+
+
+.fourth-section__btn
+    text-align: center
+    font-size: 16px
+    width: 565px
+    background: none
+    border: 1px solid white
+
+
+.footer-section
+    position: relative
+    min-height: 220px
+    background: #998431
+    &__container
+        padding-top: 50px
+
+
+.footer-section
+    &__list
+        display: flex
+        flex-direction: row
+        align-items: center
+    &__list-item
+        padding: 19px 0
+        border: none
+        border-top: 1px solid white
+        border-bottom: 1px solid white
+        &:hover
+            background: #74621a
+    &__link
+        &:link, &:visited
+            font-size: 14px
+            text-decoration: none
+            color: white
+            padding: 0 60px
+
+
+
+.footer-section
+    &__bottom-list
+        display: flex
+        flex-direction: row
+        align-items: center
+    &__bottom-list-item
+        padding: 20px 0
+        border: 1px solid white
+        text-transform: uppercase
+        font-weight: bold
+        &:first-child
+            border-left: none
+        &:last-child
+            border-right: none
+        &:hover
+            background: #74621a
+            &__social
+                display: flex
+                justify-content: space-around
+                width: 260px
+            &__link
+                display: block
+
+.link
+    &:link, &:visited
+        text-align: center
+        font-size: 14px
+        text-decoration: none
+        color: white
+        padding: 0 70px
+
+
+.bottom-list-item
+    &__social
+        display: flex
+        justify-content: space-around
+        width: 260px
+    &__link
+        display: block
+
+.social__img
+    height: 14px
+    width: 20px

@@ -37,7 +37,7 @@
             <!-- Кнопки -->
             <div class="main-section__btn-box">
                 <a href="#" class="header__first-btn btn">Винная карта</a>
-                <a href="#" class="header__second-btn btn">Дегустация</a>
+                <a href="#degustation" class="header__second-btn btn">Дегустация</a>
             </div>
         </div>
     </section>
@@ -60,7 +60,7 @@
                 <!-- Картинка вина -->
 
                 <div class="second-section__img">
-                    <img src="icons/image.svg" alt="" class="img__vine">
+                    <img src="icons/image.svg" alt="Бокал вина" class="img__vine">
                 </div>
             </div>
     </section>
@@ -111,6 +111,7 @@
                         </div>
                     </div>
                     <p class="left-wrapper__text-menu">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing morbi sodales ac.</p>
+                    <!-- Кнопка -->
                     <a href="#" class="left-wrapper__btn btn">Узнать подробнее</a>
                 </div>
 
@@ -119,10 +120,10 @@
                 <div class="third-section__right-wrapper">
                     <!-- Фото  -->
                     <div class="right-wrapper__img-box">
-                        <img src="img/Rectangle 11.png" alt="" class="right-wrapper__img1">
+                        <img src="img/Rectangle 11.png" alt="Бокал вина" class="right-wrapper__img1">
                         <div class="right-wrapper__img-bottom">
-                            <img src="img/Rectangle 12.png" alt="" class="right-wrapper__img2">
-                            <img src="img/Rectangle 13.png" alt="" class="right-wrapper__img3">
+                            <img src="img/Rectangle 12.png" alt="Вино" class="right-wrapper__img2">
+                            <img src="img/Rectangle 13.png" alt="Вино" class="right-wrapper__img3">
                         </div>
                     </div>
                 </div>
@@ -132,9 +133,78 @@
         </div>
     </section>
 
+
+    <!-- Четвёртая секция -->
+    <section class="fourth-section" id="degustation">
+        <div class="container fourth-section__container">
+
+            <!-- Заголовок -->
+            <fieldset class="fourth-section__border">
+                <legend class="fourth-section-border__title">Запись на дегустацию</legend>
+                <div class="fourth-section__title">
+                    <hr class="fourth-section-border__hr">
+                    <!-- Текст -->
+                    <p class="fourth-section-border__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit non sit sed fermentum.</p>
+                </div>
+
+                <!-- Форма -->
+                <div class="fourth-section__reservation">
+                    <form action="" class="form">
+                        <div class="form__group">
+                            <input type="text" class="form__input" placeholder="Имя" id="name" required>
+                        </div>
+
+                        <div class="form__group">
+                            <input type="tel" class="form__input" placeholder="Телефон" id="phone-number" required>
+                        </div>
+
+                        <div class="form__group">
+                            <input type="email" class="form__input" placeholder="Введите ваш email" id="email" required>
+                        </div>
+                    </form>
+
+                    <!-- Кнопка -->
+                    <div class="form__group">
+                        <button class="btn fourth-section__btn">Записаться</button>
+                    </div>
+                </div>
+
+            </fieldset>
+            <!--Иллюстрации -->
+            <img src="img/grape.png" alt="Виноград" class="fourth-section__grape">
+            <img src="img/barrel.png" alt="Виноград" class="fourth-section__barrel">
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="container footer-section__container">
+            <div class="footer-section__container">
+                <ul class="footer-section__list">
+                    <li class="footer-section__list-item"><a class="footer-section__link" href="#">Главная</a></li>
+                    <li class="footer-section__list-item"><a class="footer-section__link" href="#">Каталог</a></li>
+                    <li class="footer-section__list-item"><a class="footer-section__link"href="#">Поставщики</a></li>
+                    <li class="footer-section__list-item"><a class="footer-section__link" href="#">Коллекции</a></li>
+                    <li class="footer-section__list-item"><a class="footer-section__link" href="#">Дегустация</a></li>
+                    <li class="footer-section__list-item"><a class="footer-section__link" href="#">Контакты</a></li>
+                </ul>
+                <ul class="footer-section__bottom-list">
+                    <li class="footer-section__bottom-list-item"><a class="link" href="#">винный бутик LE CORTE</a></li>
+                    <li class="footer-section__bottom-list-item"><a class="link" href="#">8 (812) 123-45-67</a></li>
+
+                    <li class="footer-section__bottom-list-item">
+                        <div class="bottom-list-item__social">
+                            <a class="social__link" href="#"><img class="social__img" src="icons/Vector.svg" alt="YouTube"></a>
+                            <a class="social__link" href="#"><img class="social__img" src="icons/Vector-1.svg" alt="VK"></a>
+                            <a class="social__link" href="#"><img class="social__img" src="icons/Vector-2.svg" alt="Facebook"></a>
+                        </div>
+                    </li>
+
+                    <li class="footer-section__bottom-list-item"><a class="link" href="#">© le-corte.ru</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
 
-<!-- Уменьшить размеры таблицы -->
-
-<!-- Отступ 80px после hr -->
